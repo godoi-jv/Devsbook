@@ -291,6 +291,9 @@ header .head-side {
 .profile-info-item {
     text-align: center;
 }
+.profile-info-item a{
+    text-decoration: none;
+}
 .profile-info-item-n {
     font-weight: bold;
     font-size:20px;
@@ -355,7 +358,7 @@ header .head-side {
     margin-right:0;
 }
 .user-photo-item img {
-    max-width: 100%;
+    width: 25%;
 }
 
 .tabs {
@@ -389,7 +392,65 @@ header .head-side {
 }
 .full-user-photos .user-photo-item {
     margin:0;
+    max-width: 100%;
 }
+
+.feed-pagination a {
+    display: inline-block;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.feed-pagination a:hover{
+    background-color: #ddd;
+}
+.feed-pagination a.active {
+    background-color: #fff;
+}
+
+.button {
+    border:0;
+    padding:10px 20px;
+    background-color:#4a76a8;
+    border-radius:10px;
+    color:#FFF;
+    font-size:15px;
+    cursor:pointer;
+    box-shadow:0px 0px 3px #999;
+    text-decoration: none;
+    display: inline-block;
+}
+.button:hover {
+    background-color:#477dbb;
+}
+
+.form-confir-input-submit {
+    max-width: 80px;
+}
+.form-config-file {
+    margin: 15px 0 15px 0;
+}
+.form-config-file input {
+    margin: 10px 0 15px 15px  ;    
+}
+.form-config-data {
+    margin:10px 0 10px 0 ;
+}
+.form-config-data input{
+    margin-bottom:10px; 
+    width: 500px;
+    line-height: 20px;
+}
+.flash {
+    border:2x solid red;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 
 @media (max-width: 992px) {
     header .head-side-right {
